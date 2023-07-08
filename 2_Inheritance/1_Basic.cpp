@@ -61,12 +61,12 @@ class Engineer : public Human
 };
 
 // Mode of Inheritance : Private
-class Doctor : private Human
+class student : private Human
 {
     public : 
     string hospital;
 
-    Doctor(string name, string property,string hospital)
+    student(string name, string property,string hospital)
     {
         this->name = name;
         this->property = property;
@@ -106,7 +106,7 @@ int main()
 {
     Human h1("Swapnil", "Swapnil@123", "House");
 
-    Engineer e1("Harshal", "Flat", "Barclays");
+    Student e1("Snehal", "clg", "Modern");
 
     Doctor d1("Bhandari", "Land", "Sancheeti Hospital");
 
